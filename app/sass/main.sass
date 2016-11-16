@@ -5,3 +5,210 @@
 body
 	font-size: 16px
 
+header
+	background-image: url(../img/main-bg.jpg)
+
+	.header-logo
+		padding: 45px 0 35px 0
+		border-bottom: 1px solid #fff
+		.logo
+			padding-top: 10px
+
+	.contact
+		font-family: "OpenSansSemibold", $helvetica
+		color: #fff
+		position: relative
+		&:before
+			content: url(../img/phone.png)
+			position: absolute
+			top: 25px
+			left: -40px
+		span
+			font-size: em(17px)
+		p
+			font-size: em(30px)
+			margin-bottom: 0
+	.form
+		background-image: url(../img/slide.png)
+		background-repeat: no-repeat
+		min-height: 713px
+		margin-top: 60px
+		h2
+			color: #fff
+			font-family: "OpenSansRegular", $helvetica
+			font-size: em(52px)
+			span
+				color: #ecd407
+		.main
+			position: relative
+		form
+			background-color: #001d8a
+			margin-left: 190px
+			margin-top: 60px
+			position: absolute
+			border-radius: 0 50px 50px 0
+			h3
+				font-family: "OpenSansRegular", $helvetica
+				font-size: em(38px)
+				margin: 0
+				padding-left: 38px
+				padding-top: 25px
+				color: #fff
+			p
+				font-size: em(20px)	
+				padding-left: 38px
+				padding-top: 10px
+				color: #fff
+				&:last-child
+					margin-top: 15px
+					margin-bottom: 20px
+					font-size: em(13px)
+			input
+				margin-left: 38px	
+				padding-left: 15px
+			.name
+				width: 490px
+				height: 50px
+				margin-bottom: 25px
+				margin-top: 25px
+			.email
+				height: 50px
+				width: 230px
+				float: left
+			.phone
+				height: 50px
+				width: 230px
+				margin-left: 30px	
+			#message
+				width: 490px
+				height: 100px
+				margin-top: 25px
+				margin-bottom: 20px
+				margin-left: 38px
+				resize: none	
+				padding: 15px
+			button
+				padding: 15px 55px
+				background-color: #ecd407
+				color: #444444
+				border-radius: 5px
+				outline: none
+				border: none
+				margin-left: 38px
+				font-family: "OpenSansBold", $helvetica
+				font-size: em(20px)
+
+.about
+	padding-top: 165px
+	padding-bottom: 140px
+	background-image: url(../img/about-bg.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+
+	.number
+		color: #889eba
+		font-family: "OpenSansBold", $helvetica
+		font-size: em(52px)
+		padding-bottom: 47px
+		position: relative
+		&:after
+			content: ""
+			position: absolute
+			top: 100%
+			left: 50%
+			width: 50px
+			height: 2px
+			background-color: #f4b939
+			transform: translateX(-50%)
+
+	.description
+		font-family: "OpenSansSemibold", $helvetica
+		color: #fff
+		font-size: em(22px)
+		padding-top: 50px
+		text-transform: uppercase
+
+.client
+	background-image: url(../img/client-bg.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	padding-top: 70px
+	
+	&-header
+		h4
+			margin: 0
+			padding-bottom: 40px
+			color: $blue
+			font-size: em(37px)
+			font-family: "OpenSansRegular", $helvetica
+
+	&-content
+		p
+			padding-top: 42px
+			font-size: em(22px)
+			font-family: "OpenSansLightItalic", $helvetica
+			color: #2f2f2f
+			padding: 45px 0px 80px 0px
+
+	&-person
+		padding-bottom: 75px
+		img
+			height: 87px
+			width: 87px
+			border-radius: 50%
+			float: left
+			margin-left: 45px
+		p
+			font-family: "OpenSansLightItalic", $helvetica
+			color: #2f2f2f
+			margin: 0
+			padding-top: 5px
+		.smith
+			font-size: em(27px)
+		.bussines
+			font-size: em(18px)
+			
+.footer	
+	background-image: url(../img/square.png)
+	padding-top: 70px
+	padding-bottom: 50px
+
+	.icon
+		height: 80px
+		width: 80px
+		margin: 0 auto
+		background-color: #f4b939
+		line-height: 80px
+	.border
+		position: 
+		&:after
+			content: " "
+			width: 2px
+			height: 80px
+			background-color: #fff
+			position: absolute
+			top: 0px
+			left: 100%	
+	p
+		font-family: "OpenSansRegular", $helvetica
+		color: #fff
+		font-size: em(25px)
+		padding-top: 40px
+
+	.disc
+		font-family: "OpenSansLightItalic", $helvetica
+		font-size: em(17px)
+		padding-top: 65px
+		line-height: 30px
+
+footer
+	background-color: #07195c
+	p
+		text-align: center
+		font-family: "OpenSansLightItalic", $helvetica
+		font-size: em(18px)
+		color: #fff
+		padding: 30px
+		margin: 0
